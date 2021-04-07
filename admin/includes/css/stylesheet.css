@@ -695,7 +695,7 @@ a.btn-metatags-on {
   border: none;
 }
 .btn-status:active {
-  webkit-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .btn-status:focus, .btn-status:active:focus {

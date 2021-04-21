@@ -29,6 +29,7 @@
     }));
   });
 </script>
+<script src="includes/javascript/themeSwitcher.js" defer></script>
 
 <?php if (file_exists($jsFile = 'includes/javascript/' . basename($PHP_SELF, '.php') . '.js')) { ?>
 <script src="<?php echo $jsFile; ?>"></script>

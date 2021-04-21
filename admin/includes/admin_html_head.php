@@ -12,7 +12,15 @@ if (!defined('IS_ADMIN_FLAG')) {
 <meta charset="<?php echo CHARSET; ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title><?php echo TITLE; ?></title>
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#fff">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#fff">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <?php if (file_exists($value = 'includes/css/bootstrap.min.css')) { ?>
     <link rel="stylesheet" href="<?php echo $value; ?>">
 <?php } else { ?>
@@ -30,6 +38,8 @@ if (!defined('IS_ADMIN_FLAG')) {
 <?php } ?>
     <link rel="stylesheet" href="includes/css/jAlert.css">
     <link rel="stylesheet" href="includes/css/menu.css">
+    <link rel="stylesheet" href="includes/css/color_schemes/light.css">
+    <link rel="stylesheet" href="includes/css/color_schemes/dark.css">
     <link rel="stylesheet" href="includes/css/stylesheet.css">
 <?php if (file_exists($value = 'includes/css/' . basename($PHP_SELF, '.php') . '.css')) { ?>
     <link rel="stylesheet" href="<?php echo $value; ?>">

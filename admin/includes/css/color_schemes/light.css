@@ -1,0 +1,185 @@
+/**
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: Erik Kerkhoven 2020 Apr 14 New in v1.5.7 $
+ */
+:root {
+  color-scheme: dark light; /* both supported */
+  --bkg-color: #fff;
+  --heading-color: #333;
+  --text-color: #333;
+  --link-color: #00f;
+  --headerLink-color: #fff;
+  --alert: #ff3;
+  --warning: #f60;
+  --danger: #f00;
+  --succes: #080;
+  --rowOdd-color: #f7f6ef;
+  --rowEven-color: #fff;
+  --attributeBoxContent: #dcdbd1;
+  --dataTableHeadingRow: #d7d6cc;
+  --dataTableRow: #f2f1ee;
+  --dataTableRowBot: #facbfa;
+  --borderColor: #999;
+  --messageStackCaution: #ff0;
+  --messageStackError: #ffb3b5;
+  --messageStackSuccess: #d4ffbd;
+  --saleMakerDisabled: #f0f1f1;
+  --saleMakerOver : #fff;
+  --saleMakerSelected: #dee4e8;
+  --copyrightrow: #ffffff;
+  --reportBoxLink: #1e90ff;
+  --headerBackGround: #333;
+  --headerColor: #f5f5f5;
+  --warrantyRow: #ffffff;
+  --specialPrice: #f60;
+  --lookupAttention: #f00;
+  --error: #f00;
+  --adminRowIcon: #05a5cb;
+}
+
+.adminRowIcon:hover, .adminRowIcon a:hover {
+  color: #333;
+}
+.adminRowIconActive, .adminRowIconInactive:hover {
+  color: green;
+}
+
+.adminRowIconInactive, .adminRowIconActive:hover {
+  color: red;
+}
+
+.adminRowIconRestricted, .adminRowIconRestricted:hover {
+  color: yellow;
+}
+
+.adminRowIconAttributesActive i.fa-stack-1x {
+  color: #f2f1ee;
+}
+
+.adminRowIconCartActive, .adminRowIconCartNoActive, .adminRowIconCartActive:hover, .adminRowIconCartNoActive:hover {
+  color: green;
+}
+
+.adminRowIconCartInactive, .adminRowIconCartNoInactive, .adminRowIconCartInactive:hover, .adminRowIconCartNoInactive:hover {
+  color: red;
+}
+
+.versionCurrent {
+  color: green;
+}
+
+.alertVersionNew {
+  color: #ff0000;
+}
+
+a.btn-edit {
+  background-color: #008000;
+  color: #eee;
+}
+
+a.btn-delete {
+  background-color: #f00;
+  color: #eee;
+}
+
+a.btn-move {
+  background-color: #800080;
+  color: #eee;
+}
+
+a.btn-copy {
+  background-color: #00f;
+  color: #eee;
+}
+
+a.btn-imagehandler {
+  background-color: #fa8072;
+  color: #000;
+}
+
+a.btn-attributes-on {
+  background-color: #87cefa;
+  color: #000;
+}
+
+a.btn-attributes-off, a.btn-metatags-off {
+  background-color: #000;
+  color: #eee;
+}
+
+a.btn-pricemanager-on {
+  background-color: #32cd32;
+  color: #eee;
+}
+
+a.btn-pricemanager-off {
+  background-color: #d3d3d3;
+  color: #eee;
+}
+
+a.btn-metatags-on {
+  background-color: #000;
+  color: #ffa500;
+}
+
+.btn-status {
+  background-color: rgba(0,0,0,0.0);
+}
+.fa-folder, .fa-folder-open {color: #deb887;}
+.folder, .folder:hover {
+  color: #000;
+}
+.txt-status-off{
+  color: #d9534f;
+}
+.txt-status-on{
+  color: #398439;
+}
+.txt-linked{
+  color: #f0ad4e;
+}
+
+input.button a, a input.button {
+  color: #404040;
+}
+
+.btn-help {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.orderProductsPopover {
+  color: #333;
+}
+.txt-black {
+  color:#000;
+}
+.txt-yellow {
+  color: #ff0;
+}
+.txt-orange {
+  color: #ffa500
+}
+.txt-lime {
+  color:#5ce400
+}
+.txt-red {
+  color:#f00;
+}
+.txt-navy {
+  color: #000080;
+}
+.txt-blue {
+  color: #00f;
+}
+.txt-white {
+  color:#fff;
+}
+.txt-pink {
+  color: #ffbaba;
+}
+.txt-transparent {
+  color: rgba(0,0,0,0.0);
+}

@@ -191,4 +191,4 @@ if (POSM_USE_MINIFIED_JSCRIPT === 'true') {
     $jquery_filename = 'jquery.posm_dependencies.js';
 }
 ?>
-<script src="<?= $template->get_template_dir($jquery_filename, DIR_WS_TEMPLATE, $current_page_base, 'jscript') . '/' . $jquery_filename ?>"></script>
+<script src="<?= $template->get_template_dir($jquery_filename, DIR_WS_TEMPLATE, $current_page_base, 'jscript') . $jquery_filename ?>"></script>
